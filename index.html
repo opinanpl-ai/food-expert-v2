@@ -10,13 +10,13 @@
 <link rel="manifest" href="./manifest.json">
 <title>Food Expert Kitchen</title>
 <style>
-:root{--ink:#182230;--muted:#697586;--line:#dfe4ea;--soft:#f5f7f9;--card:#fff;--accent:#b45f3c;--good:#287a4b}
+:root{--ink:#182230;--muted:#697586;--line:#dfe4ea;--soft:#f5f7f9;--card:#fff;--accent:#b45f3c}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f1f3f5;color:var(--ink)}
 button,input,select{font:inherit}button{cursor:pointer}.app{max-width:1100px;margin:auto;min-height:100vh;background:#fff}
 header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
 .brand{font-weight:900;letter-spacing:-.02em}.nav{display:flex;gap:6px;overflow:auto;padding:8px 12px;border-bottom:1px solid var(--line);background:#fff}.nav button,.ghost,.primary,.danger{border-radius:10px;padding:9px 12px;border:1px solid var(--line);background:#fff;font-weight:750}.nav button.active,.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
-main{padding:16px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.toolbar input{flex:1;min-width:210px;padding:11px;border:1px solid var(--line);border-radius:10px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card,.detail,.item,.notice{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}.card{box-shadow:0 3px 14px #1822300b}.thumb{height:150px;border-radius:12px;background:linear-gradient(135deg,#d7dce1,#f7f7f7);display:flex;align-items:center;justify-content:center;font-size:52px;margin-bottom:12px;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.small{color:var(--muted);font-size:13px}.chips{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0}.chip{background:var(--soft);border-radius:999px;padding:5px 8px;font-size:12px}.row{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}.list{display:grid;gap:9px}.planner-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.planner-recipes{display:grid;gap:7px;margin-top:9px}.planner-recipe{display:flex;align-items:center;gap:9px;padding:9px;background:var(--soft);border-radius:10px}.planner-recipe .remove{margin-left:auto}.danger{border-color:#e3b9b9;color:#9b3434}.qty{font-weight:800}.modal-backdrop{position:fixed;inset:0;background:#1822307a;z-index:30;display:flex;align-items:flex-end;justify-content:center;padding:12px}.modal{width:min(620px,100%);background:#fff;border-radius:18px;padding:18px;box-shadow:0 20px 60px #0004}.modal select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;margin:12px 0}.modal-actions{display:flex;justify-content:flex-end;gap:8px}.step{border-left:4px solid var(--accent);padding:12px;margin:10px 0;background:var(--soft);border-radius:8px}.step.done{opacity:.55}.ingredient{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}.empty{padding:35px;text-align:center;color:var(--muted)}
-@media(max-width:650px){header{padding:12px}.nav{position:sticky;top:56px;z-index:9}.grid{grid-template-columns:1fr}main{padding:12px}.planner-recipe{align-items:flex-start}.planner-recipe .remove{padding:6px 8px}}
+main{padding:16px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.toolbar input{flex:1;min-width:210px;padding:11px;border:1px solid var(--line);border-radius:10px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card,.detail,.item,.notice{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}.card{box-shadow:0 3px 14px #1822300b}.thumb{height:150px;border-radius:12px;background:linear-gradient(135deg,#d7dce1,#f7f7f7);display:flex;align-items:center;justify-content:center;font-size:52px;margin-bottom:12px;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.small{color:var(--muted);font-size:13px}.chips{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0}.chip{background:var(--soft);border-radius:999px;padding:5px 8px;font-size:12px}.row{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}.list{display:grid;gap:9px}.planner-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.planner-recipes{display:grid;gap:7px;margin-top:9px}.planner-recipe{display:flex;align-items:center;gap:9px;padding:10px;background:var(--soft);border-radius:10px}.planner-recipe .remove{margin-left:auto}.planner-recipe .serving-control{display:flex;align-items:center;gap:5px;margin-left:auto}.serving-control input{width:72px;padding:7px;border:1px solid var(--line);border-radius:8px;text-align:center;font-weight:800}.serving-control button{padding:5px 9px}.danger{border-color:#e3b9b9;color:#9b3434}.qty{font-weight:800}.modal-backdrop{position:fixed;inset:0;background:#1822307a;z-index:30;display:flex;align-items:flex-end;justify-content:center;padding:12px}.modal{width:min(620px,100%);background:#fff;border-radius:18px;padding:18px;box-shadow:0 20px 60px #0004}.modal select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;margin:12px 0}.modal-actions{display:flex;justify-content:flex-end;gap:8px}.step{border-left:4px solid var(--accent);padding:12px;margin:10px 0;background:var(--soft);border-radius:8px}.ingredient{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}.empty{padding:35px;text-align:center;color:var(--muted)}.checked{opacity:.55;text-decoration:line-through}.market-source{font-size:12px;color:var(--muted)}
+@media(max-width:650px){header{padding:12px}.nav{position:sticky;top:56px;z-index:9}.grid{grid-template-columns:1fr}main{padding:12px}.planner-recipe{align-items:flex-start}.planner-recipe .serving-control{order:3;width:100%;margin-left:0}.planner-recipe .remove{margin-left:auto}}
 </style>
 </head>
 <body>
@@ -28,35 +28,151 @@ main{padding:16px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14p
 <script>
 const $=id=>document.getElementById(id);
 let recipes=[];
-let state={screen:"library",query:"",favorites:JSON.parse(localStorage.getItem("fe-favorites")||"[]"),plan:JSON.parse(localStorage.getItem("fe-plan")||"null")||{Monday:[],Tuesday:[],Wednesday:[],Thursday:[],Friday:[],Saturday:[],Sunday:[]},market:JSON.parse(localStorage.getItem("fe-market")||"[]"),cook:null};
+const defaultPlan={Monday:[],Tuesday:[],Wednesday:[],Thursday:[],Friday:[],Saturday:[],Sunday:[]};
+let state={
+  screen:"library",
+  query:"",
+  favorites:JSON.parse(localStorage.getItem("fe-favorites")||"[]"),
+  plan:JSON.parse(localStorage.getItem("fe-plan")||"null")||defaultPlan,
+  market:JSON.parse(localStorage.getItem("fe-market")||"[]"),
+  marketChecked:JSON.parse(localStorage.getItem("fe-market-checked")||"{}"),
+  cook:null
+};
 
-function save(){localStorage.setItem("fe-favorites",JSON.stringify(state.favorites));localStorage.setItem("fe-plan",JSON.stringify(state.plan));localStorage.setItem("fe-market",JSON.stringify(state.market));}
+function migratePlan(){
+  let changed=false;
+  for(const day of Object.keys(defaultPlan)){
+    if(!Array.isArray(state.plan[day])){state.plan[day]=[];changed=true}
+    state.plan[day]=state.plan[day].map(x=>{
+      if(typeof x==="string"){
+        changed=true;
+        let r=recipes.find(y=>y.id===x);
+        return {id:x,servings:r?.defaultServings||4};
+      }
+      return {id:x.id,servings:Number(x.servings)||recipes.find(y=>y.id===x.id)?.defaultServings||4};
+    });
+  }
+  if(changed)save();
+}
+function save(){
+  localStorage.setItem("fe-favorites",JSON.stringify(state.favorites));
+  localStorage.setItem("fe-plan",JSON.stringify(state.plan));
+  localStorage.setItem("fe-market",JSON.stringify(state.market));
+  localStorage.setItem("fe-market-checked",JSON.stringify(state.marketChecked));
+}
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
 function emoji(r){let n=r.name.toLowerCase();if(n.includes("sushi"))return"🍣";if(n.includes("lasagna")||n.includes("pasta"))return"🍝";if(n.includes("ramen"))return"🍜";if(n.includes("bread"))return"🍞";if(n.includes("burger"))return"🍔";return"🍳"}
 function thumb(r){return r.image?`<div class="thumb"><img src="${esc(r.image)}" alt="${esc(r.name)}" onerror="this.parentElement.innerHTML='<span>${emoji(r)}</span>'"></div>`:`<div class="thumb"><span>${emoji(r)}</span></div>`}
 function favorite(r){return state.favorites.includes(r.id)}
 function renderNav(){let items=[["library","📚 Recipes"],["planner","📅 Planner"],["market","🛒 Market"]];$("nav").innerHTML=items.map(([id,t])=>`<button class="${state.screen===id?'active':''}" onclick="go('${id}')">${t}</button>`).join("")}
 function go(s){state.screen=s;render()}
-function render(){renderNav();if(state.screen==="library")library();else if(state.screen==="planner")planner();else if(state.screen==="market")market();else if(state.screen==="recipe")recipeView();else if(state.screen==="cook")cookMode();$("status").textContent=`${recipes.length} recipes`}
-function library(){let q=state.query.toLowerCase();let rs=recipes.filter(r=>(r.name+" "+r.categories.join(" ")+" "+r.tags.join(" ")+" "+r.ingredients.map(x=>x.name).join(" ")).toLowerCase().includes(q));$("screen").innerHTML=`<div class="row"><div><h1>Recipe Library</h1><div class="small">Approved Food Expert recipes only.</div></div></div><div class="toolbar"><input placeholder="Search recipe, ingredient, cuisine…" value="${esc(state.query)}" oninput="state.query=this.value;library()"><button class="ghost" onclick="state.query='';library()">Clear</button></div><div class="grid">${rs.map(r=>`<article class="card">${thumb(r)}<div class="row"><h2>${esc(r.name)}</h2><button class="ghost" onclick="toggleFav('${r.id}')">${favorite(r)?"❤️":"♡"}</button></div><div class="small">${r.defaultServings} servings · ${r.prepMinutes} min prep · ${r.cookMinutes} min cook</div><div class="chips">${r.categories.map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div><button class="primary" onclick="openRecipe('${r.id}')">Open Recipe</button></article>`).join("")||'<div class="empty">No recipes found.</div>'}</div>`}
+function render(){
+  renderNav();
+  if(state.screen==="library")library();
+  else if(state.screen==="planner")planner();
+  else if(state.screen==="market")market();
+  else if(state.screen==="recipe")recipeView();
+  else if(state.screen==="cook")cookMode();
+  $("status").textContent=`${recipes.length} recipes`;
+}
+function library(){
+  let q=state.query.toLowerCase();
+  let rs=recipes.filter(r=>(r.name+" "+r.categories.join(" ")+" "+r.tags.join(" ")+r.ingredients.map(x=>x.name).join(" ")).toLowerCase().includes(q));
+  $("screen").innerHTML=`<div class="row"><div><h1>Recipe Library</h1><div class="small">Approved Food Expert recipes only.</div></div></div>
+  <div class="toolbar"><input placeholder="Search recipe, ingredient, cuisine…" value="${esc(state.query)}" oninput="state.query=this.value;library()"><button class="ghost" onclick="state.query='';library()">Clear</button></div>
+  <div class="grid">${rs.map(r=>`<article class="card">${thumb(r)}<div class="row"><h2>${esc(r.name)}</h2><button class="ghost" onclick="toggleFav('${r.id}')">${favorite(r)?"❤️":"♡"}</button></div><div class="small">${r.defaultServings} servings · ${r.prepMinutes} min prep · ${r.cookMinutes} min cook</div><div class="chips">${r.categories.map(c=>`<span class="chip">${esc(c)}</span>`).join("")}</div><button class="primary" onclick="openRecipe('${r.id}')">Open Recipe</button></article>`).join("")||'<div class="empty">No recipes found.</div>'}</div>`;
+}
 function toggleFav(id){let i=state.favorites.indexOf(id);if(i>=0)state.favorites.splice(i,1);else state.favorites.push(id);save();render()}
 function openRecipe(id){state.selected=id;state.screen="recipe";render()}
-function recipeView(){let r=recipes.find(x=>x.id===state.selected);if(!r){go("library");return}let sides=(r.suggestedSides||[]);$("screen").innerHTML=`<div class="detail"><button class="ghost" onclick="go('library')">← Back</button>${thumb(r)}<div class="row"><div><h1>${esc(r.name)}</h1><div class="small">${r.defaultServings} servings · ${r.prepMinutes} min prep · ${r.cookMinutes} min cook · ${r.difficulty}</div></div><button class="ghost" onclick="toggleFav('${r.id}')">${favorite(r)?"❤️ Favorite":"♡ Favorite"}</button></div><p>${esc(r.description)}</p><div class="row"><button class="primary" onclick="startCook('${r.id}')">▶ Start Cooking</button><button class="ghost" onclick="addRecipeToMarket('${r.id}')">＋ Add to Market</button>${r.source?.url?`<a class="ghost" href="${esc(r.source.url)}" target="_blank" rel="noopener">🎥 Original Video</a>`:""}</div><hr><h2>Ingredients</h2><div class="list">${r.ingredients.map(x=>`<div class="ingredient"><span>${esc(x.name)}</span><span>${x.quantity} ${esc(x.unit)}</span></div>`).join("")}</div><h2>Instructions</h2>${r.steps.map((s,i)=>`<div class="step"><b>${i+1}. ${esc(s.title)}</b><div class="small">${esc(s.time)} · ${esc(s.heat)}</div><p>${esc(s.text)}</p></div>`).join("")}<h2>Doneness Cues</h2><ul>${r.donenessCues.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><h2>Chef Notes</h2><ul>${r.chefNotes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${sides.length?`<h2>Suggested Side Dishes</h2><div class="list">${sides.map((s,i)=>`<div class="item"><div class="row"><div><b>${esc(s.name)}</b><div class="small">${s.ingredients.map(x=>`${x.quantity} ${x.unit} ${x.name}`).join(" · ")}</div></div><div><button class="ghost" onclick="addSideToMarket('${r.id}',${i})">＋ Add this side to market list</button><button class="ghost" onclick="addPermanentSide('${r.id}',${i})">★ Add this side as permanent sidedish</button></div></div></div>`).join("")}</div>`:""}<h2>Substitutions</h2><ul>${r.substitutions.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><h2>Common Mistakes</h2><ul>${r.commonMistakes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`}
-function addRecipeToMarket(id){let r=recipes.find(x=>x.id===id);r.ingredients.forEach(x=>state.market.push({...x,source:r.name}));save();alert("Recipe ingredients added to Market List.");go("market")}
-function addSideToMarket(id,i){let r=recipes.find(x=>x.id===id),s=r.suggestedSides[i];s.ingredients.forEach(x=>state.market.push({...x,source:s.name}));save();alert(`${s.name} added to Market List.`);go("market")}
+function recipeView(){
+  let r=recipes.find(x=>x.id===state.selected);if(!r){go("library");return}
+  let sides=(r.suggestedSides||[]);
+  $("screen").innerHTML=`<div class="detail"><button class="ghost" onclick="go('library')">← Back</button>${thumb(r)}
+  <div class="row"><div><h1>${esc(r.name)}</h1><div class="small">${r.defaultServings} servings · ${r.prepMinutes} min prep · ${r.cookMinutes} min cook · ${r.difficulty}</div></div><button class="ghost" onclick="toggleFav('${r.id}')">${favorite(r)?"❤️ Favorite":"♡ Favorite"}</button></div>
+  <p>${esc(r.description)}</p><div class="row"><button class="primary" onclick="startCook('${r.id}')">▶ Start Cooking</button><button class="ghost" onclick="addRecipeToMarket('${r.id}')">＋ Add to Market</button>${r.source?.url?`<a class="ghost" href="${esc(r.source.url)}" target="_blank" rel="noopener">🎥 Original Video</a>`:""}</div><hr>
+  <h2>Ingredients</h2><div class="list">${r.ingredients.map(x=>`<div class="ingredient"><span>${esc(x.name)}</span><span>${x.quantity} ${esc(x.unit)}</span></div>`).join("")}</div>
+  <h2>Instructions</h2>${r.steps.map((s,i)=>`<div class="step"><b>${i+1}. ${esc(s.title)}</b><div class="small">${esc(s.time)} · ${esc(s.heat)}</div><p>${esc(s.text)}</p></div>`).join("")}
+  <h2>Doneness Cues</h2><ul>${r.donenessCues.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+  <h2>Chef Notes</h2><ul>${r.chefNotes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+  ${sides.length?`<h2>Suggested Side Dishes</h2><div class="list">${sides.map((s,i)=>`<div class="item"><div class="row"><div><b>${esc(s.name)}</b><div class="small">${s.ingredients.map(x=>`${x.quantity} ${x.unit} ${x.name}`).join(" · ")}</div></div><div><button class="ghost" onclick="addSideToMarket('${r.id}',${i})">＋ Add this side to market list</button><button class="ghost" onclick="addPermanentSide('${r.id}',${i})">★ Add this side as permanent sidedish</button></div></div></div>`).join("")}</div>`:""}
+  <h2>Substitutions</h2><ul>${r.substitutions.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+  <h2>Common Mistakes</h2><ul>${r.commonMistakes.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+}
+function addRecipeToMarket(id){let r=recipes.find(x=>x.id===id);r.ingredients.forEach(x=>state.market.push({...x,source:r.name,manual:true}));save();alert("Recipe ingredients added to Market List.");go("market")}
+function addSideToMarket(id,i){let r=recipes.find(x=>x.id===id),s=r.suggestedSides[i];s.ingredients.forEach(x=>state.market.push({...x,source:s.name,manual:true}));save();alert(`${s.name} added to Market List.`);go("market")}
 function addPermanentSide(id,i){let r=recipes.find(x=>x.id===id),s=r.suggestedSides[i];let saved=JSON.parse(localStorage.getItem("fe-permanent-sides")||"[]");if(!saved.some(x=>x.name===s.name))saved.push(s);localStorage.setItem("fe-permanent-sides",JSON.stringify(saved));alert(`${s.name} saved as a permanent side dish.`)}
-function planner(){$("screen").innerHTML=`<div class="detail"><h1>📅 Meal Planner</h1><div class="notice">Plan recipes by day. Changes are saved on this device.</div><div class="list">${Object.keys(state.plan).map(d=>`<div class="item"><div class="planner-head"><b>${d}</b><button class="primary" onclick="openPlannerPicker('${d}')">＋ Add recipe</button></div><div class="planner-recipes">${(state.plan[d]||[]).map((id,n)=>{let r=recipes.find(x=>x.id===id);return r?`<div class="planner-recipe"><span>${emoji(r)}</span><span><b>${esc(r.name)}</b><br><span class="small">${r.defaultServings} servings</span></span><button class="danger" onclick="removePlan('${d}',${n})">Remove</button></div>`:""}).join("")||'<span class="small">No recipes planned yet.</span>'}</div></div>`).join("")}</div></div>`}
-function openPlannerPicker(day){$("screen").insertAdjacentHTML("beforeend",`<div class="modal-backdrop" id="plannerModal"><div class="modal"><h2>Add recipe to ${day}</h2><select id="plannerSelect">${recipes.map(r=>`<option value="${r.id}">${emoji(r)} ${esc(r.name)}</option>`).join("")}</select><div class="modal-actions"><button class="ghost" onclick="closeModal()">Cancel</button><button class="primary" onclick="confirmPlan('${day}')">Add to ${day}</button></div></div></div>`)}
+function plannedRows(){let rows=[];for(const day of Object.keys(state.plan)){for(const entry of state.plan[day]){let r=recipes.find(x=>x.id===entry.id);if(r)rows.push({day,entry,r})}}return rows}
+function planner(){
+  let plannedCount=plannedRows().length;
+  $("screen").innerHTML=`<div class="detail"><div class="planner-head"><div><h1>📅 Meal Planner</h1><div class="small">Plan recipes by day, choose the serving size, and the Market List updates automatically.</div></div><button class="primary" onclick="go('market')">🛒 Market List</button></div>
+  <div class="notice">Serving size changes affect the quantities Food Expert calculates for your Market List. Your recipe instructions remain unchanged.</div>
+  <div class="list">${Object.keys(state.plan).map(d=>`<div class="item"><div class="planner-head"><b>${d}</b><button class="primary" onclick="openPlannerPicker('${d}')">＋ Add recipe</button></div>
+  <div class="planner-recipes">${state.plan[d].map((entry,n)=>{let r=recipes.find(x=>x.id===entry.id);if(!r)return"";return `<div class="planner-recipe"><span>${emoji(r)}</span><span><b>${esc(r.name)}</b><br><span class="small">Recipe base: ${r.defaultServings} servings</span></span>
+  <div class="serving-control"><button class="ghost" onclick="changeServing('${d}',${n},-1)">−</button><input type="number" min="1" step="1" value="${entry.servings}" onchange="setServing('${d}',${n},this.value)" aria-label="Serving size"><button class="ghost" onclick="changeServing('${d}',${n},1)">＋</button><span class="small">servings</span></div>
+  <button class="danger remove" onclick="removePlan('${d}',${n})">Remove</button></div>`}).join("")||'<span class="small">No recipes planned yet.</span>'}</div></div>`).join("")}</div>
+  <div class="notice"><b>${plannedCount}</b> planned recipe${plannedCount===1?"":"s"} · <button class="ghost" onclick="go('market')">View calculated Market List →</button></div></div>`;
+}
+function openPlannerPicker(day){
+  $("screen").insertAdjacentHTML("beforeend",`<div class="modal-backdrop" id="plannerModal"><div class="modal"><h2>Add recipe to ${day}</h2><select id="plannerSelect">${recipes.map(r=>`<option value="${r.id}">${emoji(r)} ${esc(r.name)} — ${r.defaultServings} servings</option>`).join("")}</select><div class="modal-actions"><button class="ghost" onclick="closeModal()">Cancel</button><button class="primary" onclick="confirmPlan('${day}')">Add to ${day}</button></div></div></div>`);
+}
 function closeModal(){$("plannerModal")?.remove()}
-function confirmPlan(day){let id=$("plannerSelect").value;if(id){state.plan[day].push(id);save()}closeModal();planner()}
+function confirmPlan(day){let id=$("plannerSelect").value;let r=recipes.find(x=>x.id===id);if(id&&r){state.plan[day].push({id,servings:r.defaultServings});save()}closeModal();planner()}
+function setServing(day,index,value){let n=Math.max(1,Math.round(Number(value)||1));state.plan[day][index].servings=n;save();planner()}
+function changeServing(day,index,delta){let current=Number(state.plan[day][index].servings)||1;setServing(day,index,current+delta)}
 function removePlan(day,i){state.plan[day].splice(i,1);save();planner()}
-function market(){let groups={};state.market.forEach((x,i)=>{let key=x.name.toLowerCase().trim();if(!groups[key])groups[key]={name:x.name,unit:x.unit,total:0,items:[]};if(typeof x.quantity==="number")groups[key].total+=x.quantity;groups[key].items.push(i)});let arr=Object.values(groups);$("screen").innerHTML=`<div class="detail"><div class="row"><div><h1>🛒 Market List</h1><div class="small">Items are consolidated by ingredient name.</div></div><button class="danger" onclick="clearMarket()">Clear</button></div><div class="list">${arr.map(g=>`<div class="item"><div class="row"><b>☐ ${esc(g.name)}</b><span class="qty">${g.total?g.total+" "+esc(g.unit):"as needed"}</span></div><div class="small">${g.items.map(i=>esc(state.market[i].source||"")).filter(Boolean).join(" · ")}</div></div>`).join("")||'<div class="empty">Your market list is empty.</div>'}</div></div>`}
-function clearMarket(){state.market=[];save();market()}
+function addPlannedIngredients(groups){
+  for(const {entry,r} of plannedRows()){
+    let factor=(Number(entry.servings)||r.defaultServings)/r.defaultServings;
+    for(const x of r.ingredients){
+      let key=x.name.toLowerCase().trim();
+      if(!groups[key])groups[key]={name:x.name,unit:x.unit,total:0,asNeeded:false,sources:[]};
+      if(typeof x.quantity==="number")groups[key].total+=x.quantity*factor;else groups[key].asNeeded=true;
+      groups[key].sources.push(`${r.name} (${entry.servings} servings)`);
+    }
+  }
+}
+function addManualIngredients(groups){
+  for(const x of state.market){
+    let key=x.name.toLowerCase().trim();
+    if(!groups[key])groups[key]={name:x.name,unit:x.unit,total:0,asNeeded:false,sources:[]};
+    if(typeof x.quantity==="number")groups[key].total+=x.quantity;else groups[key].asNeeded=true;
+    groups[key].sources.push(x.source||"Manual item");
+  }
+}
+function formatQty(n){if(Math.abs(n-Math.round(n))<.001)return String(Math.round(n));return String(Math.round(n*100)/100)}
+function toggleMarketChecked(encoded){let key=decodeURIComponent(encoded);state.marketChecked[key]=!state.marketChecked[key];save();market()}
+function market(){
+  let groups={};addPlannedIngredients(groups);addManualIngredients(groups);
+  let arr=Object.entries(groups).map(([key,g])=>({key,...g}));
+  $("screen").innerHTML=`<div class="detail"><div class="row"><div><h1>🛒 Market List</h1><div class="small">Automatically calculated from your Planner, with quantities scaled to your chosen serving sizes.</div></div><div class="row"><button class="ghost" onclick="go('planner')">📅 Planner</button><button class="danger" onclick="clearMarket()">Clear manual items</button></div></div>
+  ${plannedRows().length?`<div class="notice">${plannedRows().length} planned recipe${plannedRows().length===1?"":"s"} are included. Change servings in Planner and this list recalculates automatically.</div>`:'<div class="notice">Your Planner is empty. Add recipes there to build your shopping list automatically.</div>'}
+  <div class="list">${arr.map(g=>{let checked=!!state.marketChecked[g.key];let amount=g.total?formatQty(g.total)+" "+esc(g.unit):"as needed";return `<div class="item ${checked?"checked":""}"><div class="row"><label style="display:flex;gap:9px;align-items:center"><input type="checkbox" ${checked?"checked":""} onchange="toggleMarketChecked('${encodeURIComponent(g.key)}')"><b>${esc(g.name)}</b></label><span class="qty">${amount}</span></div><div class="market-source">${g.sources.filter((v,i,a)=>a.indexOf(v)===i).join(" · ")}</div></div>`}).join("")||'<div class="empty">Your market list is empty.</div>'}</div></div>`;
+}
+function clearMarket(){state.market=[];state.marketChecked={};save();market()}
 function startCook(id){state.selected=id;state.cook={index:0};state.screen="cook";render()}
-function cookMode(){let r=recipes.find(x=>x.id===state.selected),i=state.cook.index,s=r.steps[i];$("screen").innerHTML=`<div class="detail"><button class="ghost" onclick="openRecipe('${r.id}')">← Recipe</button><h1>👨‍🍳 Cook Mode</h1><div class="small">Step ${i+1} / ${r.steps.length}</div><div class="step"><h2>${esc(s.title)}</h2><div class="chips"><span class="chip">⏱ ${esc(s.time)}</span><span class="chip">🔥 ${esc(s.heat)}</span></div><p>${esc(s.text)}</p></div><h3>Recipe amounts</h3><div class="list">${r.ingredients.map(x=>`<div class="ingredient"><span>${esc(x.name)}</span><b>${x.quantity} ${esc(x.unit)}</b></div>`).join("")}</div><h3>Doneness cues</h3><ul>${r.donenessCues.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><div class="row"><button class="ghost" onclick="cookBack()">← Previous</button><button class="primary" onclick="cookNext()">${i===r.steps.length-1?"Finish":"Done → Next"}</button></div></div>`}
+function cookMode(){
+  let r=recipes.find(x=>x.id===state.selected),i=state.cook.index,s=r.steps[i];
+  $("screen").innerHTML=`<div class="detail"><button class="ghost" onclick="openRecipe('${r.id}')">← Recipe</button><h1>👨‍🍳 Cook Mode</h1><div class="small">Step ${i+1} / ${r.steps.length}</div>
+  <div class="step"><h2>${esc(s.title)}</h2><div class="chips"><span class="chip">⏱ ${esc(s.time)}</span><span class="chip">🔥 ${esc(s.heat)}</span></div><p>${esc(s.text)}</p></div>
+  <h3>Recipe amounts</h3><div class="list">${r.ingredients.map(x=>`<div class="ingredient"><span>${esc(x.name)}</span><b>${x.quantity} ${esc(x.unit)}</b></div>`).join("")}</div>
+  <h3>Doneness cues</h3><ul>${r.donenessCues.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+  <div class="row"><button class="ghost" onclick="cookBack()">← Previous</button><button class="primary" onclick="cookNext()">${i===r.steps.length-1?"Finish":"Done → Next"}</button></div></div>`;
+}
 function cookBack(){if(state.cook.index>0)state.cook.index--;render()}
 function cookNext(){let r=recipes.find(x=>x.id===state.selected);if(state.cook.index<r.steps.length-1){state.cook.index++;render()}else{alert("Recipe complete! Great work.");openRecipe(r.id)}}
-async function load(){try{let bust=`?v=${Date.now()}`;let res=await fetch("./data/recipes.json"+bust,{cache:"no-store"});if(!res.ok)throw Error();recipes=await res.json();render()}catch(e){$("status").textContent="Recipe data unavailable";$("screen").innerHTML='<div class="empty">Could not load the recipe database.</div>'}}
+async function load(){
+  try{
+    let bust=`?v=${Date.now()}`;
+    let res=await fetch("./data/recipes.json"+bust,{cache:"no-store"});
+    if(!res.ok)throw Error();
+    recipes=await res.json();
+    migratePlan();
+    render();
+  }catch(e){
+    $("status").textContent="Recipe data unavailable";
+    $("screen").innerHTML='<div class="empty">Could not load the recipe database.</div>';
+  }
+}
 if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});
 load();
 </script>
