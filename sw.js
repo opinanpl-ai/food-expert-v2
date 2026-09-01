@@ -1,4 +1,4 @@
-const CACHE_NAME = "food-expert-v4-thumbnails";
+const CACHE_NAME = "food-expert-v5-fe008";
 
 const APP_SHELL = [
   "./",

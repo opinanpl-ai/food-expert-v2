@@ -812,5 +812,857 @@
     ],
     "storage": "Best eaten immediately. Refrigerate cooked salmon and rice promptly; assembled cucumber sushi loses texture quickly.",
     "image": "images/crispy-salmon-cucumber-sushi.jpg"
+  },
+  {
+    "status": "approved",
+    "version": "1.0",
+    "description": "Creamy, garlicky, buttery and spicy pasta layered with caramelized red onion, chili oil, soy, honey, cream, smoky sausage and garlic-butter shrimp.",
+    "categories": [
+      "Pasta",
+      "Seafood",
+      "Spicy",
+      "Special Occasion"
+    ],
+    "tags": [
+      "Shrimp",
+      "Sausage",
+      "Chili Oil",
+      "Garlic",
+      "Creamy"
+    ],
+    "source": {
+      "type": "Substack recipe",
+      "url": "https://seafoodnetwork.substack.com/p/garlic-butter-chili-oil-pasta-a-recipe",
+      "note": "Public article description was accessible; the full paid recipe was not. This app entry is a Food Expert reconstruction from the public description and the previously approved FE-004 version."
+    },
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": 500,
+        "unit": "g",
+        "section": "Pasta"
+      },
+      {
+        "name": "Shrimp, peeled and deveined",
+        "quantity": 500,
+        "unit": "g",
+        "section": "Seafood"
+      },
+      {
+        "name": "Smoked sausage, sliced",
+        "quantity": 300,
+        "unit": "g",
+        "section": "Meat"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 2,
+        "unit": "heads",
+        "section": "Aromatics"
+      },
+      {
+        "name": "Red onions, thinly sliced",
+        "quantity": 2,
+        "unit": "pcs",
+        "section": "Aromatics"
+      },
+      {
+        "name": "Butter",
+        "quantity": 100,
+        "unit": "g",
+        "section": "Sauce"
+      },
+      {
+        "name": "Chili oil or chili crisp",
+        "quantity": 60,
+        "unit": "ml",
+        "section": "Sauce"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": 30,
+        "unit": "ml",
+        "section": "Sauce"
+      },
+      {
+        "name": "Honey",
+        "quantity": 30,
+        "unit": "g",
+        "section": "Sauce"
+      },
+      {
+        "name": "Cooking cream",
+        "quantity": 250,
+        "unit": "ml",
+        "section": "Sauce"
+      },
+      {
+        "name": "Reserved pasta water",
+        "quantity": 250,
+        "unit": "ml",
+        "section": "Sauce"
+      },
+      {
+        "name": "Fresh parsley",
+        "quantity": 15,
+        "unit": "g",
+        "section": "Garnish"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Seasoning"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Caramelize the onions",
+        "time": "12–15 min",
+        "heat": "Low–medium",
+        "text": "Cook the sliced red onions with a little butter and oil until deeply softened, jammy and golden. Stir often enough to prevent scorching."
+      },
+      {
+        "title": "Build garlic butter",
+        "time": "5 min",
+        "heat": "Low",
+        "text": "Cook the garlic gently in butter until very fragrant and softened; avoid browning the garlic aggressively."
+      },
+      {
+        "title": "Cook sausage and shrimp",
+        "time": "6–8 min",
+        "heat": "Medium-high",
+        "text": "Brown the sausage, then sear the shrimp in garlic butter until just opaque and cooked through. Remove shrimp so it stays tender."
+      },
+      {
+        "title": "Make the chili cream sauce",
+        "time": "4–5 min",
+        "heat": "Medium-low",
+        "text": "Add chili oil, soy sauce, honey and cream. Stir in caramelized onions and simmer gently until silky."
+      },
+      {
+        "title": "Cook pasta and combine",
+        "time": "8–10 min",
+        "heat": "Boiling / medium",
+        "text": "Cook spaghetti al dente. Reserve pasta water, then toss pasta into the sauce, adding pasta water gradually until glossy and clingy. Fold sausage and shrimp back in."
+      },
+      {
+        "title": "Finish",
+        "time": "1 min",
+        "heat": "Off heat",
+        "text": "Finish with parsley, black pepper and an extra drizzle of chili oil. Serve immediately."
+      }
+    ],
+    "donenessCues": [
+      "Shrimp is opaque and firm but still juicy.",
+      "Sauce coats the spaghetti in a glossy layer rather than pooling thinly.",
+      "Garlic smells sweet and aromatic, not burnt.",
+      "Caramelized onions are soft and jammy."
+    ],
+    "chefNotes": [
+      "Control the heat carefully once cream is added; a gentle simmer gives a smoother sauce.",
+      "Reserve pasta water before draining because the starch helps emulsify the sauce.",
+      "Add shrimp back near the end to prevent overcooking."
+    ],
+    "commonMistakes": [
+      "Burning garlic by using high heat.",
+      "Boiling the cream aggressively.",
+      "Overcooking shrimp while finishing the pasta.",
+      "Adding too much soy sauce before tasting."
+    ],
+    "substitutions": [
+      "Heavy cream or all-purpose cooking cream can be used.",
+      "Calamansi is not a direct substitute for the sauce acidity here; use a tiny splash only at the table if desired.",
+      "Pechay or spinach can replace parsley as a vegetable addition, but the texture changes."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Simple cucumber salad",
+        "ingredients": [
+          {
+            "name": "Cucumber",
+            "quantity": 1,
+            "unit": "pc",
+            "section": "Side"
+          },
+          {
+            "name": "Rice vinegar",
+            "quantity": 15,
+            "unit": "ml",
+            "section": "Side"
+          },
+          {
+            "name": "Sesame seeds",
+            "quantity": 1,
+            "unit": "tsp",
+            "section": "Side"
+          }
+        ]
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in an airtight container and use within 3 days. Reheat gently with a splash of water or cream.",
+    "id": "FE-004",
+    "name": "Chili Garlic Cream Pasta",
+    "defaultServings": 5,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "difficulty": "Medium",
+    "image": "images/chili-garlic-cream-pasta.jpg"
+  },
+  {
+    "status": "approved",
+    "version": "1.0",
+    "description": "A crisp, cheesy breakfast triangle made from a tortilla wrapped around cheese batons, egg, tomatoes and fresh herbs.",
+    "categories": [
+      "Breakfast",
+      "Quick Meals",
+      "Eggs",
+      "Vegetarian"
+    ],
+    "tags": [
+      "Egg",
+      "Cheese",
+      "Tortilla",
+      "Breakfast",
+      "Crispy"
+    ],
+    "source": {
+      "type": "Instagram Reel",
+      "url": "https://www.instagram.com/reel/DbGGGKtulpH/",
+      "note": "Recipe text supplied by the user."
+    },
+    "ingredients": [
+      {
+        "name": "Large whole wheat tortilla or thin flatbread",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Base"
+      },
+      {
+        "name": "Firm cheese sticks/batons",
+        "quantity": 3,
+        "unit": "sticks",
+        "section": "Cheese"
+      },
+      {
+        "name": "Large egg",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Egg"
+      },
+      {
+        "name": "Extra beaten egg for egg wash",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Egg"
+      },
+      {
+        "name": "Fresh herbs, chopped",
+        "quantity": 1,
+        "unit": "handful",
+        "section": "Vegetables"
+      },
+      {
+        "name": "Cherry tomatoes, quartered",
+        "quantity": 4,
+        "unit": "pcs",
+        "section": "Vegetables"
+      },
+      {
+        "name": "Shredded cheese",
+        "quantity": 2,
+        "unit": "tbsp",
+        "section": "Cheese"
+      },
+      {
+        "name": "Mixed black and white sesame seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Garnish"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "section": "Seasoning"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "pinch",
+        "section": "Seasoning"
+      },
+      {
+        "name": "Wooden toothpicks",
+        "quantity": 3,
+        "unit": "pcs",
+        "section": "Equipment"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Preheat",
+        "time": "5 min",
+        "heat": "180°C",
+        "text": "Preheat oven or air fryer to 180°C. Line a baking tray if using an oven."
+      },
+      {
+        "title": "Build the triangle",
+        "time": "2 min",
+        "heat": "None",
+        "text": "Lay tortilla flat and arrange the three cheese sticks in the center as a triangle."
+      },
+      {
+        "title": "Fold and secure",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Fold the tortilla edges over the cheese to form a triangular boat. Secure the three overlapping corners with toothpicks."
+      },
+      {
+        "title": "Fill",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Crack one egg into the center. Add herbs, tomatoes and shredded cheese."
+      },
+      {
+        "title": "Egg wash and garnish",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Brush folded tortilla edges with beaten egg and sprinkle with sesame seeds. Season the center."
+      },
+      {
+        "title": "Bake",
+        "time": "10–15 min",
+        "heat": "180°C",
+        "text": "Bake until the tortilla is crisp and golden, cheese is melted and the egg reaches your preferred doneness."
+      },
+      {
+        "title": "Serve",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Cool briefly, remove all toothpicks carefully, slice and serve."
+      }
+    ],
+    "donenessCues": [
+      "Tortilla edges are golden and crisp.",
+      "Cheese is visibly melted.",
+      "Egg white is set; yolk is cooked to your preference."
+    ],
+    "chefNotes": [
+      "Use a thin tortilla so the folded edges crisp before the egg overcooks.",
+      "Toothpicks are essential for holding the triangle shape during baking."
+    ],
+    "commonMistakes": [
+      "Overfilling the center and causing the egg to spill.",
+      "Forgetting to remove toothpicks before serving.",
+      "Using a very thick flatbread that stays doughy."
+    ],
+    "substitutions": [
+      "Mozzarella or mild cheddar for the cheese sticks.",
+      "Parsley, cilantro or spinach for herbs.",
+      "Pechay is not ideal here because it releases more water; use spinach instead if substituting."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Fresh fruit",
+        "ingredients": [
+          {
+            "name": "Banana",
+            "quantity": 1,
+            "unit": "pc",
+            "section": "Side"
+          },
+          {
+            "name": "Strawberries",
+            "quantity": 100,
+            "unit": "g",
+            "section": "Side"
+          }
+        ]
+      }
+    ],
+    "storage": "Best eaten immediately. Refrigerate leftovers and reheat in an oven/air fryer rather than a microwave for better crispness.",
+    "id": "FE-005",
+    "name": "Crispy Egg & Cheese Tortilla Triangles",
+    "defaultServings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "image": "images/crispy-egg-cheese-tortilla-triangles.jpg"
+  },
+  {
+    "status": "approved",
+    "version": "1.0",
+    "description": "Creamy, spicy Buldak noodles coated in a cheese-and-mayo sauce and topped with shrimp, crispy sausage and a fried egg.",
+    "categories": [
+      "Noodles",
+      "Korean-Inspired",
+      "Quick Meals",
+      "Spicy"
+    ],
+    "tags": [
+      "Buldak",
+      "Shrimp",
+      "Sausage",
+      "Cheesy",
+      "Egg"
+    ],
+    "source": {
+      "type": "Facebook Reel",
+      "url": "https://www.facebook.com/reel/1056972443912818",
+      "note": "Recipe text supplied by the user."
+    },
+    "ingredients": [
+      {
+        "name": "Samyang Buldak instant noodles, Carbonara or Cheese",
+        "quantity": 1,
+        "unit": "pack",
+        "section": "Noodles"
+      },
+      {
+        "name": "Processed American cheese",
+        "quantity": 2,
+        "unit": "slices",
+        "section": "Cheese"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Sauce"
+      },
+      {
+        "name": "Ketchup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Sauce"
+      },
+      {
+        "name": "Green onions, chopped",
+        "quantity": 2,
+        "unit": "tbsp",
+        "section": "Garnish"
+      },
+      {
+        "name": "Shredded mozzarella",
+        "quantity": 0.25,
+        "unit": "cup",
+        "section": "Cheese"
+      },
+      {
+        "name": "Shrimp, peeled and deveined",
+        "quantity": 3,
+        "unit": "pcs",
+        "section": "Seafood"
+      },
+      {
+        "name": "Small sausages",
+        "quantity": 2,
+        "unit": "pcs",
+        "section": "Meat"
+      },
+      {
+        "name": "Large egg",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Egg"
+      },
+      {
+        "name": "Reserved noodle water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "section": "Sauce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook toppings",
+        "time": "5 min",
+        "heat": "Medium",
+        "text": "Pan-fry shrimp until pink and cooked through. Fry scored sausages until browned and crisp at the edges. Fry the egg to your liking. Set aside."
+      },
+      {
+        "title": "Boil noodles",
+        "time": "3–5 min",
+        "heat": "Boiling",
+        "text": "Cook noodles according to package directions. Reserve about ¼ cup starchy noodle water before draining."
+      },
+      {
+        "title": "Build creamy sauce",
+        "time": "2 min",
+        "heat": "Low",
+        "text": "In the warm pot add American cheese, mayonnaise, ketchup, half the green onions, the Buldak powder packet and liquid sauce packet."
+      },
+      {
+        "title": "Emulsify",
+        "time": "1 min",
+        "heat": "Low",
+        "text": "Add a splash of hot noodle water and stir vigorously until the cheese melts into a thick creamy sauce."
+      },
+      {
+        "title": "Toss noodles",
+        "time": "1 min",
+        "heat": "Low",
+        "text": "Add drained noodles and toss until evenly coated."
+      },
+      {
+        "title": "Melt mozzarella",
+        "time": "1 min",
+        "heat": "Low / covered",
+        "text": "Sprinkle mozzarella over the noodles and cover briefly until melted."
+      },
+      {
+        "title": "Assemble",
+        "time": "1 min",
+        "heat": "Off heat",
+        "text": "Top with shrimp, sausages and fried egg. Finish with remaining green onions and optional chili crisp or sesame seeds."
+      }
+    ],
+    "donenessCues": [
+      "Shrimp is opaque and just cooked.",
+      "Sausages have browned edges.",
+      "Sauce is smooth and clings to noodles.",
+      "Egg reaches your desired doneness."
+    ],
+    "chefNotes": [
+      "Use low heat for the cheese sauce so it stays smooth.",
+      "Starchy noodle water is the bridge between the cheese and the spicy sauce."
+    ],
+    "commonMistakes": [
+      "Boiling the cheese sauce hard.",
+      "Adding all the water at once and making it thin.",
+      "Overcooking the shrimp."
+    ],
+    "substitutions": [
+      "Hotdog or cocktail sausages work well.",
+      "Cheddar can replace American cheese but melts differently.",
+      "Pechay can be added for a vegetable component."
+    ],
+    "suggestedSides": [],
+    "storage": "Eat immediately for best texture. Refrigerate leftovers promptly and use within 2 days; reheat gently with a splash of water.",
+    "id": "FE-006",
+    "name": "Creamy Cheesy Buldak Noodles with Shrimp & Sausage",
+    "defaultServings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "difficulty": "Easy",
+    "image": "images/creamy-cheesy-buldak-noodles.jpg"
+  },
+  {
+    "status": "approved",
+    "version": "1.0",
+    "description": "Crispy-edged smash burgers cooked directly onto flour tortillas, finished with melted cheese, burger sauce and fresh toppings.",
+    "categories": [
+      "Beef",
+      "Burgers",
+      "Quick Meals",
+      "International"
+    ],
+    "tags": [
+      "Smash Burger",
+      "Tacos",
+      "Beef",
+      "Cheese",
+      "Fast"
+    ],
+    "source": {
+      "type": "Facebook Reel",
+      "url": "https://www.facebook.com/reel/2531963403906500",
+      "note": "Recipe text supplied by the user."
+    },
+    "ingredients": [
+      {
+        "name": "Small flour tortillas",
+        "quantity": 2,
+        "unit": "pcs",
+        "section": "Base"
+      },
+      {
+        "name": "Ground beef, ideally 80/20",
+        "quantity": 0.5,
+        "unit": "lb",
+        "section": "Meat"
+      },
+      {
+        "name": "Cheese slices",
+        "quantity": 2,
+        "unit": "slices",
+        "section": "Cheese"
+      },
+      {
+        "name": "Burger sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "section": "Sauce"
+      },
+      {
+        "name": "Shredded lettuce",
+        "quantity": 0.25,
+        "unit": "cup",
+        "section": "Toppings"
+      },
+      {
+        "name": "Red onion, diced",
+        "quantity": 2,
+        "unit": "tbsp",
+        "section": "Toppings"
+      },
+      {
+        "name": "Tomato, diced",
+        "quantity": 2,
+        "unit": "tbsp",
+        "section": "Toppings"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Seasoning"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Prep patties",
+        "time": "2 min",
+        "heat": "None",
+        "text": "Divide beef into two portions and press each directly onto one tortilla, covering the tortilla to the edges. Season generously."
+      },
+      {
+        "title": "Smash",
+        "time": "2–3 min",
+        "heat": "Medium-high",
+        "text": "Place tortilla meat-side down on a hot skillet or griddle. Press firmly to maximize contact and develop a browned crust."
+      },
+      {
+        "title": "Flip and melt",
+        "time": "1–2 min",
+        "heat": "Medium-high",
+        "text": "Flip carefully. Add cheese and cook until the tortilla is toasted and the cheese melts."
+      },
+      {
+        "title": "Assemble",
+        "time": "2 min",
+        "heat": "Off heat",
+        "text": "Spread burger sauce over the cheese, then add lettuce, onion and tomato."
+      },
+      {
+        "title": "Serve",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Fold into taco shape and serve immediately."
+      }
+    ],
+    "donenessCues": [
+      "Beef has a deep brown crust and crisp lacy edges.",
+      "Cheese is fully melted.",
+      "Tortilla is toasted but still foldable."
+    ],
+    "chefNotes": [
+      "The pan must be hot before the meat hits it.",
+      "Do not keep moving the tortilla during the first side; uninterrupted contact builds the crust."
+    ],
+    "commonMistakes": [
+      "Using very lean beef and getting a dry patty.",
+      "Crowding the pan.",
+      "Flipping before the crust develops."
+    ],
+    "substitutions": [
+      "Ground pork or chicken can work, but the crust and fat level will change.",
+      "Corn tortillas can be used, though they behave differently and are less forgiving for the smash technique."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Pickle side",
+        "ingredients": [
+          {
+            "name": "Dill pickles",
+            "quantity": 100,
+            "unit": "g",
+            "section": "Side"
+          },
+          {
+            "name": "Chili garlic",
+            "quantity": 1,
+            "unit": "tsp",
+            "section": "Side"
+          }
+        ]
+      }
+    ],
+    "storage": "Best served immediately. Refrigerate cooked leftovers promptly and reheat in a skillet or air fryer.",
+    "id": "FE-007",
+    "name": "Smash Burger Tacos",
+    "defaultServings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "difficulty": "Easy",
+    "image": "images/smash-burger-tacos.jpg"
+  },
+  {
+    "status": "approved",
+    "version": "1.0",
+    "description": "A creamy spicy ramen bowl with gnocchi, mushrooms and bok choy, built from a mayo-egg seasoning base and finished with a crispy fried egg and black vinegar.",
+    "categories": [
+      "Noodles",
+      "Ramen",
+      "Quick Meals",
+      "Spicy",
+      "Fusion"
+    ],
+    "tags": [
+      "Chili Crisp",
+      "Gnocchi",
+      "Mushroom",
+      "Bok Choy",
+      "Egg"
+    ],
+    "source": {
+      "type": "Facebook Reel",
+      "url": "https://www.facebook.com/reel/2291674991635780",
+      "note": "Recipe text supplied by the user."
+    },
+    "ingredients": [
+      {
+        "name": "Kewpie mayonnaise",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Base"
+      },
+      {
+        "name": "Raw egg",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Base"
+      },
+      {
+        "name": "Ramen seasoning packet",
+        "quantity": 1,
+        "unit": "packet",
+        "section": "Base"
+      },
+      {
+        "name": "Chili garlic or chili crisp",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Base"
+      },
+      {
+        "name": "Instant ramen",
+        "quantity": 1,
+        "unit": "pack",
+        "section": "Noodles"
+      },
+      {
+        "name": "Gnocchi",
+        "quantity": 0.25,
+        "unit": "cup",
+        "section": "Noodles"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 1,
+        "unit": "handful",
+        "section": "Vegetables"
+      },
+      {
+        "name": "Bok choy",
+        "quantity": 1,
+        "unit": "handful",
+        "section": "Vegetables"
+      },
+      {
+        "name": "Fried egg",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Garnish"
+      },
+      {
+        "name": "Black vinegar",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Garnish"
+      },
+      {
+        "name": "Sesame seeds",
+        "quantity": 1,
+        "unit": "pinch",
+        "section": "Garnish"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Boil solids",
+        "time": "3–5 min",
+        "heat": "Boiling",
+        "text": "Cook ramen, gnocchi, mushrooms and bok choy in boiling water until tender."
+      },
+      {
+        "title": "Build base",
+        "time": "1 min",
+        "heat": "None",
+        "text": "In the serving bowl whisk Kewpie mayo, raw egg, ramen seasoning and chili crisp into a thick paste."
+      },
+      {
+        "title": "Temper with hot water",
+        "time": "1–2 min",
+        "heat": "Off heat",
+        "text": "Ladle about 1–1½ cups hot cooking water into the bowl gradually while whisking vigorously to create a creamy broth."
+      },
+      {
+        "title": "Assemble",
+        "time": "1 min",
+        "heat": "Off heat",
+        "text": "Drain the noodles, gnocchi and vegetables and fold them into the broth."
+      },
+      {
+        "title": "Garnish",
+        "time": "1 min",
+        "heat": "None",
+        "text": "Top with a fried egg, extra chili crisp, black vinegar and sesame seeds."
+      }
+    ],
+    "donenessCues": [
+      "Broth is creamy and emulsified rather than watery.",
+      "Ramen remains springy.",
+      "Gnocchi is tender without falling apart.",
+      "Fried egg is crisp at the edges."
+    ],
+    "chefNotes": [
+      "Add hot water slowly to temper the raw egg and prevent scrambling.",
+      "Black vinegar cuts the richness of the mayo and egg.",
+      "Do not overcook the ramen before combining with the broth."
+    ],
+    "commonMistakes": [
+      "Pouring boiling water in all at once and scrambling the egg.",
+      "Overcooking gnocchi.",
+      "Adding too much seasoning packet before tasting."
+    ],
+    "substitutions": [
+      "Regular mayonnaise for Kewpie.",
+      "Pechay for bok choy.",
+      "Rice vinegar can replace black vinegar, but the flavor is brighter and less malty.",
+      "Chili garlic oil can replace chili crisp."
+    ],
+    "suggestedSides": [],
+    "storage": "Because this recipe uses an egg tempered with hot water, use pasteurized egg when available for the safest result. Eat immediately; refrigerate leftovers promptly and use within 1 day.",
+    "id": "FE-008",
+    "name": "Creamy Chili-Crisp Ramen with Gnocchi",
+    "defaultServings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "difficulty": "Easy",
+    "image": "images/creamy-chili-crisp-ramen-gnocchi.jpg"
   }
 ]
