@@ -1,5 +1,231 @@
 [
   {
+    "id": "FE-001",
+    "name": "Creamy Shrimp Lasagna",
+    "status": "approved",
+    "version": "1.0",
+    "defaultServings": 6,
+    "prepMinutes": 35,
+    "cookMinutes": 45,
+    "difficulty": "Medium",
+    "categories": [
+      "Seafood",
+      "Pasta",
+      "Italian-Inspired",
+      "Special Occasion"
+    ],
+    "tags": [
+      "Shrimp",
+      "Lasagna",
+      "Creamy",
+      "Cheesy"
+    ],
+    "description": "Layered lasagna with garlicky shrimp, creamy béchamel, tomato sauce and melted cheese.",
+    "source": {
+      "type": "Instagram Reel",
+      "url": "https://www.instagram.com/reel/Dbgviv5DcFe/",
+      "note": "No accessible written recipe was provided; measurements and method are Food Expert-developed."
+    },
+    "ingredients": [
+      {
+        "name": "Lasagna sheets",
+        "quantity": 250,
+        "unit": "g",
+        "section": "Pasta"
+      },
+      {
+        "name": "Shrimp, peeled and deveined",
+        "quantity": 600,
+        "unit": "g",
+        "section": "Seafood"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 5,
+        "unit": "cloves",
+        "section": "Produce"
+      },
+      {
+        "name": "Olive oil",
+        "quantity": 30,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Butter",
+        "quantity": 60,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "All-purpose flour",
+        "quantity": 45,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Whole milk",
+        "quantity": 600,
+        "unit": "ml",
+        "section": "Dairy"
+      },
+      {
+        "name": "Heavy cream",
+        "quantity": 200,
+        "unit": "ml",
+        "section": "Dairy"
+      },
+      {
+        "name": "Cream cheese",
+        "quantity": 120,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "Parmesan",
+        "quantity": 70,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": 250,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "Tomato sauce",
+        "quantity": 500,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "medium",
+        "section": "Produce"
+      },
+      {
+        "name": "Italian herbs",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1.25,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Chili flakes",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "section": "Pantry",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "Make tomato sauce",
+        "time": "10 min",
+        "heat": "Medium",
+        "text": "Sauté diced onion in half the oil. Add half the garlic, tomato sauce and herbs. Simmer until slightly thickened."
+      },
+      {
+        "title": "Sear shrimp",
+        "time": "4–5 min",
+        "heat": "Medium-high",
+        "text": "Pat shrimp dry, season with salt, pepper and optional chili. Sear in remaining oil with garlic for 1–2 minutes per side, just until opaque. Remove immediately."
+      },
+      {
+        "title": "Make creamy sauce",
+        "time": "8–10 min",
+        "heat": "Medium-low",
+        "text": "Melt butter, whisk in flour for 1 minute, then gradually whisk in milk and cream. Simmer until thick. Whisk in cream cheese and Parmesan; adjust seasoning."
+      },
+      {
+        "title": "Prepare pasta",
+        "time": "5–8 min",
+        "heat": "As package directs",
+        "text": "Cook regular sheets until flexible, or use no-boil sheets if your sauce is loose enough."
+      },
+      {
+        "title": "Layer",
+        "time": "10 min",
+        "heat": "None",
+        "text": "In a 23 × 33 cm dish, layer tomato sauce, pasta, shrimp and creamy sauce. Repeat for 3 layers. Finish with creamy sauce and mozzarella."
+      },
+      {
+        "title": "Bake",
+        "time": "30–35 min",
+        "heat": "190°C",
+        "text": "Cover and bake 20 minutes. Uncover and bake 10–15 minutes more until bubbling and golden."
+      },
+      {
+        "title": "Rest",
+        "time": "10–15 min",
+        "heat": "None",
+        "text": "Rest before slicing so the creamy layers set."
+      }
+    ],
+    "donenessCues": [
+      "Sauce bubbles at the edges.",
+      "Top is melted and golden.",
+      "Pasta is tender in the center.",
+      "Shrimp are opaque and firm, not rubbery."
+    ],
+    "chefNotes": [
+      "Do not overcook shrimp before baking.",
+      "Pat shrimp dry for better browning.",
+      "Resting is essential for clean slices."
+    ],
+    "commonMistakes": [
+      "Overcooked shrimp",
+      "Too little sauce",
+      "Skipping the resting period",
+      "Over-salting after adding cheese"
+    ],
+    "substitutions": [
+      "Evaporated milk can replace part of the cream.",
+      "Frozen shrimp are fine if thawed and dried well.",
+      "Canned tomato sauce can replace passata."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Garlic Bread",
+        "permanentEligible": true,
+        "ingredients": [
+          {
+            "name": "Bread",
+            "quantity": 1,
+            "unit": "loaf",
+            "section": "Bakery"
+          },
+          {
+            "name": "Butter",
+            "quantity": 40,
+            "unit": "g",
+            "section": "Dairy"
+          },
+          {
+            "name": "Garlic",
+            "quantity": 2,
+            "unit": "cloves",
+            "section": "Produce"
+          }
+        ]
+      }
+    ],
+    "storage": "Refrigerate promptly. Reheat until thoroughly hot; oven or air fryer gives the best texture."
+  },
+  {
     "id": "FE-002",
     "name": "Ultimate Cheeseburger Wellington",
     "status": "approved",
@@ -288,5 +514,300 @@
       }
     ],
     "storage": "Refrigerate leftovers promptly. Reheat in an oven or air fryer for better pastry texture; reheat until thoroughly hot."
+  },
+  {
+    "id": "FE-003",
+    "name": "Crispy Salmon Cucumber Sushi + Sushi Dessert",
+    "status": "approved",
+    "version": "1.0",
+    "defaultServings": 4,
+    "prepMinutes": 35,
+    "cookMinutes": 20,
+    "difficulty": "Medium",
+    "categories": [
+      "Seafood",
+      "Sushi-Inspired",
+      "Healthy",
+      "Dessert"
+    ],
+    "tags": [
+      "Salmon",
+      "Cucumber",
+      "Sushi",
+      "Fruit",
+      "Chocolate"
+    ],
+    "description": "Crispy glazed salmon over cucumber-and-sushi-rice bases, plus fruit-filled dessert sushi with chocolate and crunchy crumbs.",
+    "source": {
+      "type": "Facebook Reel / supplied video screenshots",
+      "url": "https://www.facebook.com/reel/27732605769724652",
+      "note": "No written recipe was supplied; measurements and method are Food Expert-developed from the visual sequence."
+    },
+    "ingredients": [
+      {
+        "name": "Sushi rice",
+        "quantity": 300,
+        "unit": "g",
+        "section": "Rice"
+      },
+      {
+        "name": "Water",
+        "quantity": 360,
+        "unit": "ml",
+        "section": "Rice"
+      },
+      {
+        "name": "Rice vinegar",
+        "quantity": 45,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 18,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Fine salt",
+        "quantity": 4,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Large cucumbers",
+        "quantity": 2,
+        "unit": "pc",
+        "section": "Produce"
+      },
+      {
+        "name": "Salmon fillet",
+        "quantity": 400,
+        "unit": "g",
+        "section": "Seafood"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": 30,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Honey",
+        "quantity": 20,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity": 5,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 1,
+        "unit": "clove",
+        "section": "Produce"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": 80,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Sriracha",
+        "quantity": 20,
+        "unit": "g",
+        "section": "Pantry",
+        "optional": true
+      },
+      {
+        "name": "Avocado",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Produce"
+      },
+      {
+        "name": "Spring onions",
+        "quantity": 2,
+        "unit": "stalks",
+        "section": "Produce"
+      },
+      {
+        "name": "Sesame seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Ripe banana",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Dessert"
+      },
+      {
+        "name": "Strawberries",
+        "quantity": 150,
+        "unit": "g",
+        "section": "Dessert"
+      },
+      {
+        "name": "Raspberries",
+        "quantity": 100,
+        "unit": "g",
+        "section": "Dessert"
+      },
+      {
+        "name": "Mango",
+        "quantity": 150,
+        "unit": "g",
+        "section": "Dessert"
+      },
+      {
+        "name": "Kiwi",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Dessert"
+      },
+      {
+        "name": "Cream cheese",
+        "quantity": 120,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "Vanilla extract",
+        "quantity": 2,
+        "unit": "ml",
+        "section": "Dessert"
+      },
+      {
+        "name": "Chocolate spread",
+        "quantity": 120,
+        "unit": "g",
+        "section": "Dessert"
+      },
+      {
+        "name": "Graham crackers, crushed",
+        "quantity": 80,
+        "unit": "g",
+        "section": "Dessert"
+      },
+      {
+        "name": "Desiccated coconut",
+        "quantity": 40,
+        "unit": "g",
+        "section": "Dessert"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook and season rice",
+        "time": "25 min",
+        "heat": "Low after boiling",
+        "text": "Rinse rice, cook with water, rest 10 minutes. Dissolve rice vinegar, sugar and salt, then fold into hot rice. Cool to room temperature."
+      },
+      {
+        "title": "Make salmon glaze",
+        "time": "3 min",
+        "heat": "None",
+        "text": "Mix soy sauce, honey, sesame oil and garlic. Cut salmon into thick pieces and coat lightly."
+      },
+      {
+        "title": "Crisp salmon",
+        "time": "6–8 min",
+        "heat": "Medium-high",
+        "text": "Sear salmon in a lightly oiled pan until browned and cooked through. Brush with glaze during the final minute."
+      },
+      {
+        "title": "Prepare cucumber",
+        "time": "8 min",
+        "heat": "None",
+        "text": "Halve cucumbers lengthwise, scoop out watery seeds, pat dry and trim a thin strip underneath so each half sits flat."
+      },
+      {
+        "title": "Build savory sushi",
+        "time": "8 min",
+        "heat": "None",
+        "text": "Press rice into cucumber halves. Add spicy mayo, avocado, spring onion and crispy salmon. Finish with sesame."
+      },
+      {
+        "title": "Slice",
+        "time": "5 min",
+        "heat": "None",
+        "text": "Use a sharp damp knife to cut into thick pieces. Serve immediately."
+      },
+      {
+        "title": "Make dessert filling",
+        "time": "3 min",
+        "heat": "None",
+        "text": "Beat cream cheese with honey and vanilla until smooth."
+      },
+      {
+        "title": "Prepare dessert wrapper",
+        "time": "5 min",
+        "heat": "None",
+        "text": "Spread a thin crepe or soft tortilla with chocolate spread and press crushed graham crumbs into the surface."
+      },
+      {
+        "title": "Fill and roll dessert",
+        "time": "8 min",
+        "heat": "None",
+        "text": "Spread cream cheese over the wrapper. Arrange banana, mango, strawberries, raspberries and kiwi in rows. Roll tightly."
+      },
+      {
+        "title": "Chill and cut",
+        "time": "20 min",
+        "heat": "Refrigerator",
+        "text": "Chill seam-side down until firm. Slice into rounds; coat with coconut or crumbs and drizzle with chocolate if desired."
+      }
+    ],
+    "donenessCues": [
+      "Rice is tender but holds its shape.",
+      "Salmon is browned outside and opaque through the center.",
+      "Cucumber stays crisp and sturdy.",
+      "Dessert roll is firm enough to slice cleanly."
+    ],
+    "chefNotes": [
+      "Dry cucumber thoroughly.",
+      "Cool rice before filling.",
+      "Pat salmon dry for the best crust.",
+      "This is sushi-inspired rather than traditional Japanese sushi."
+    ],
+    "commonMistakes": [
+      "Overfilling cucumber",
+      "Wet cucumber or warm rice",
+      "Dry overcooked salmon",
+      "Cutting dessert before chilling"
+    ],
+    "substitutions": [
+      "Japanese mayo can replace regular mayo.",
+      "Firm Philippine cucumber can work after removing seeds.",
+      "A thin crepe can replace tortilla.",
+      "Digestive biscuits can replace graham crackers."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Edamame with Sea Salt",
+        "permanentEligible": true,
+        "ingredients": [
+          {
+            "name": "Frozen edamame",
+            "quantity": 300,
+            "unit": "g",
+            "section": "Frozen"
+          },
+          {
+            "name": "Sea salt",
+            "quantity": 0,
+            "unit": "as needed",
+            "section": "Pantry"
+          }
+        ]
+      }
+    ],
+    "storage": "Best eaten immediately. Refrigerate cooked salmon and rice promptly; assembled cucumber sushi loses texture quickly."
   }
 ]
