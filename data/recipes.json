@@ -1,0 +1,292 @@
+[
+  {
+    "id": "FE-002",
+    "name": "Ultimate Cheeseburger Wellington",
+    "status": "approved",
+    "version": "1.0",
+    "defaultServings": 4,
+    "prepMinutes": 30,
+    "cookMinutes": 40,
+    "difficulty": "Medium",
+    "categories": [
+      "Beef",
+      "Burgers",
+      "International",
+      "Special Occasion"
+    ],
+    "tags": [
+      "Cheeseburger",
+      "Wellington",
+      "Puff Pastry",
+      "Comfort Food",
+      "Impressive"
+    ],
+    "description": "A cheeseburger wrapped in golden puff pastry with cheddar, caramelized onions, pickles and burger sauce.",
+    "source": {
+      "type": "Facebook Reel",
+      "url": "https://www.facebook.com/reel/1397991382538000",
+      "note": "The supplied Reel did not provide an accessible written recipe. Measurements are Food Expert-developed."
+    },
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "quantity": 500,
+        "unit": "g",
+        "section": "Meat"
+      },
+      {
+        "name": "Fine salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Onion powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Cheddar cheese",
+        "quantity": 4,
+        "unit": "slices",
+        "section": "Dairy"
+      },
+      {
+        "name": "Dill pickles",
+        "quantity": 60,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Large onion",
+        "quantity": 1,
+        "unit": "large",
+        "section": "Produce"
+      },
+      {
+        "name": "Neutral cooking oil",
+        "quantity": 15,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Butter",
+        "quantity": 15,
+        "unit": "g",
+        "section": "Dairy"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "section": "Pantry",
+        "optional": true
+      },
+      {
+        "name": "Water",
+        "quantity": 30,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": 60,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Ketchup",
+        "quantity": 30,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Yellow mustard",
+        "quantity": 15,
+        "unit": "g",
+        "section": "Pantry"
+      },
+      {
+        "name": "Pickle juice",
+        "quantity": 5,
+        "unit": "ml",
+        "section": "Pantry"
+      },
+      {
+        "name": "Puff pastry",
+        "quantity": 2,
+        "unit": "sheets",
+        "section": "Frozen"
+      },
+      {
+        "name": "Large egg",
+        "quantity": 1,
+        "unit": "pc",
+        "section": "Dairy"
+      },
+      {
+        "name": "Sesame seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "section": "Pantry"
+      },
+      {
+        "name": "Flaky salt",
+        "quantity": 0,
+        "unit": "as needed",
+        "section": "Pantry",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "Make the burger sauce",
+        "time": "5 min",
+        "heat": "None",
+        "text": "Mix mayonnaise, ketchup, yellow mustard, chopped pickles, pickle juice, garlic powder, onion powder and black pepper. Refrigerate."
+      },
+      {
+        "title": "Caramelize the onions",
+        "time": "20–25 min",
+        "heat": "Medium → medium-low",
+        "text": "Cook thinly sliced onion with oil, butter and salt until deeply golden, soft and jammy. Add small splashes of water if sticking. Add optional sugar if desired. Cool completely."
+      },
+      {
+        "title": "Form the patties",
+        "time": "5 min",
+        "heat": "None",
+        "text": "Gently mix ground beef with salt, pepper, garlic powder, onion powder and Worcestershire sauce. Divide into four approximately 125 g portions and shape into patties."
+      },
+      {
+        "title": "Sear the patties",
+        "time": "4–6 min",
+        "heat": "Medium-high to high",
+        "text": "Sear about 2–3 minutes per side for a browned crust. Transfer to a clean plate and cool; the burgers will finish cooking in the oven."
+      },
+      {
+        "title": "Prepare the pastry",
+        "time": "5–10 min",
+        "heat": "None",
+        "text": "Keep puff pastry cold. Roll only as needed so each piece can fully enclose one burger without stretching."
+      },
+      {
+        "title": "Assemble",
+        "time": "10 min",
+        "heat": "None",
+        "text": "Layer patty, cheddar, burger sauce, pickles and caramelized onions. Leave about 2–3 cm of clean pastry around the edge. Brush edge with egg wash, fold, seal firmly and place seam-side down."
+      },
+      {
+        "title": "Chill",
+        "time": "15–20 min",
+        "heat": "Refrigerator",
+        "text": "Chill the assembled Wellingtons to firm the pastry fat and help maintain shape."
+      },
+      {
+        "title": "Egg wash and vent",
+        "time": "3 min",
+        "heat": "None",
+        "text": "Brush with beaten egg and water. Sprinkle sesame seeds and optional flaky salt. Cut 2–3 small vents on top."
+      },
+      {
+        "title": "Bake",
+        "time": "25–35 min",
+        "heat": "200°C",
+        "text": "Bake in a fully preheated oven until deeply golden and crisp. Check the beef center with a thermometer; ground beef should reach at least 71°C."
+      },
+      {
+        "title": "Rest and serve",
+        "time": "5–10 min",
+        "heat": "None",
+        "text": "Rest before cutting. Serve with burger sauce, crispy fries, extra pickles or a fresh salad."
+      }
+    ],
+    "donenessCues": [
+      "Pastry is deeply golden, crisp and visibly flaky.",
+      "Beef center reaches at least 71°C.",
+      "Caramelized onions are soft, glossy, deeply golden and jammy.",
+      "Cheese is melted and mostly contained within the pastry."
+    ],
+    "chefNotes": [
+      "Keep pastry cold; warm filling can melt the pastry fat before baking.",
+      "Do not overfill with sauce or wet ingredients.",
+      "Cool the patties and onions before assembly.",
+      "Resting improves slicing and keeps the filling from rushing out."
+    ],
+    "commonMistakes": [
+      "Soggy pastry from warm or wet filling.",
+      "Wellington bursting because of overfilling or weak seams.",
+      "Dry beef from cooking the patties too long before baking.",
+      "Raw pastry from pastry being too thick or an oversized filling."
+    ],
+    "substitutions": [
+      "Use locally available frozen puff pastry.",
+      "Regular cheddar works well; mature cheddar gives a stronger cheeseburger flavor.",
+      "Dill pickles are preferred; sour cucumber pickles can work.",
+      "If Worcestershire sauce is unavailable, a small amount of soy sauce can be used, creating a more Asian-leaning flavor."
+    ],
+    "suggestedSides": [
+      {
+        "name": "Crispy Oven Fries",
+        "permanentEligible": true,
+        "ingredients": [
+          {
+            "name": "Potatoes",
+            "quantity": 600,
+            "unit": "g",
+            "section": "Produce"
+          },
+          {
+            "name": "Neutral oil",
+            "quantity": 15,
+            "unit": "ml",
+            "section": "Pantry"
+          },
+          {
+            "name": "Salt",
+            "quantity": 0,
+            "unit": "as needed",
+            "section": "Pantry"
+          }
+        ]
+      },
+      {
+        "name": "Simple Green Salad",
+        "permanentEligible": true,
+        "ingredients": [
+          {
+            "name": "Mixed salad greens",
+            "quantity": 1,
+            "unit": "bag/head",
+            "section": "Produce"
+          },
+          {
+            "name": "Simple salad dressing",
+            "quantity": 0,
+            "unit": "as needed",
+            "section": "Pantry"
+          }
+        ]
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly. Reheat in an oven or air fryer for better pastry texture; reheat until thoroughly hot."
+  }
+]

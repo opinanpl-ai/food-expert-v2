@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#182230">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Food Expert">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<title>Food Expert Kitchen Hub</title>
+<style>
+:root{--ink:#182230;--muted:#68727e;--line:#e1e6eb;--bg:#f5f6f8;--card:#fff;--soft:#edf1f4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+button,input{font:inherit}button{cursor:pointer}.app{max-width:1100px;margin:auto;min-height:100vh}
+.top{background:var(--ink);color:#fff;padding:17px 18px}.brand{font-size:22px;font-weight:800}.sub{font-size:12px;opacity:.72;margin-top:3px}
+.nav{position:sticky;top:0;z-index:4;background:#fff;border-bottom:1px solid var(--line);display:flex;gap:6px;padding:9px;overflow:auto}
+.nav button{border:0;background:transparent;border-radius:10px;padding:9px 12px;white-space:nowrap;color:#4e5965;font-weight:800}.nav button.active{background:var(--soft);color:var(--ink)}
+main{padding:16px}.search{width:100%;border:1px solid #d5dbe1;border-radius:12px;padding:13px;background:#fff;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:13px}.card,.detail{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}
+.thumb{height:145px;border-radius:12px;background:linear-gradient(135deg,#d7dce1,#f7f7f7);display:flex;align-items:center;justify-content:center;font-size:52px;margin-bottom:12px}
+.tag{font-size:10px;font-weight:900;color:var(--muted);letter-spacing:.08em}.card h2{font-size:19px;line-height:1.2;margin:7px 0}.meta{font-size:12px;color:var(--muted);margin-bottom:11px}
+.row{display:flex;gap:8px;align-items:center;justify-content:space-between}.primary{border:0;background:var(--ink);color:#fff;border-radius:10px;padding:11px 13px;font-weight:900}.ghost{border:1px solid #d5dbe1;background:#fff;color:var(--ink);border-radius:10px;padding:10px 12px;font-weight:800}
+.back{border:0;background:none;padding:0 0 12px;font-weight:900}.detail h1{font-size:28px;margin:0 0 5px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.chip{background:var(--soft);border-radius:15px;padding:6px 9px;font-size:11px;font-weight:800}
+.servings{display:flex;align-items:center;gap:10px;background:var(--soft);border-radius:12px;padding:9px 11px;width:max-content;margin:13px 0}.servings button{width:34px;height:34px;border:0;border-radius:9px;background:#fff;font-size:20px}.count{min-width:28px;text-align:center;font-weight:900}
+.section{border-top:1px solid var(--line);padding-top:14px;margin-top:16px}.section h3{margin:0 0 9px}.ingredient{display:flex;gap:9px;padding:8px 0;border-bottom:1px solid #eef0f2}.ingredient .q{margin-left:auto;font-weight:800}.step{padding:12px 0;border-bottom:1px solid #eef0f2}.step b{display:block;margin-bottom:4px}.small{font-size:12px;color:var(--muted)}
+.side{border:1px solid var(--line);border-radius:12px;padding:12px;margin:9px 0}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}
+.list{display:grid;gap:8px}.item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:11px;display:flex;align-items:center;gap:9px}.item input{width:20px;height:20px}.qty{margin-left:auto}
+.cook{background:var(--ink);color:#fff;border-radius:18px;padding:20px;min-height:480px}.cook .stepno{font-size:12px;opacity:.7}.cook h2{font-size:27px;margin:5px 0 18px}.cookbox{background:#243142;border-radius:14px;padding:14px;margin:12px 0}.cook-actions{display:flex;gap:9px;margin-top:20px}.cook-actions button{flex:1;padding:14px;border:0;border-radius:11px;font-weight:900}.cook-actions .next{background:#fff;color:var(--ink)}
+.notice{background:#fff8df;border:1px solid #ead99f;border-radius:13px;padding:12px;font-size:12px;margin-bottom:14px}
+@media(max-width:650px){main{padding:12px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top"><div class="brand">🍳 Food Expert</div><div class="sub">Personal kitchen hub</div></header>
+<nav class="nav">
+<button class="active" data-screen="recipes">📚 Recipes</button>
+<button data-screen="market">🛒 Market</button>
+<button data-screen="planner">📅 Planner</button>
+<button data-screen="cook">👨‍🍳 Cook</button>
+</nav>
+<main id="screen"></main>
+</div>
+<script>
+let recipes=[], selected=null, servings=4, cookIndex=0, market=[];
+const $=id=>document.getElementById(id);
+fetch('./data/recipes.json').then(r=>r.json()).then(d=>{recipes=d; library();}).catch(()=>{$('screen').innerHTML='<div class="detail"><h1>Unable to load recipes</h1><p>Please run the PWA from a web server, not file://.</p></div>'});
+
+function library(){
+ $('screen').innerHTML='<input class="search" id="q" placeholder="Search recipes…"><div class="grid" id="cards"></div>';
+ const render=()=>{const q=($('q').value||'').toLowerCase();$('cards').innerHTML=recipes.filter(r=>r.name.toLowerCase().includes(q)||r.tags.join(' ').toLowerCase().includes(q)).map((r,i)=>`
+ <article class="card"><div class="thumb">🍔</div><div class="tag">FOOD EXPERT · ${r.status.toUpperCase()}</div><h2>${r.name}</h2>
+ <div class="meta">${r.defaultServings} servings · ${r.prepMinutes} min prep · ${r.cookMinutes} min cook</div>
+ <div class="chips">${r.categories.slice(0,4).map(x=>`<span class="chip">${x}</span>`).join('')}</div>
+ <div class="row"><span class="small">v${r.version}</span><button class="primary" onclick="openRecipe(${i})">Open Recipe →</button></div></article>`).join('')};
+ $('q').oninput=render;render();
+}
+function openRecipe(i){
+ selected=recipes[i];servings=selected.defaultServings;
+ $('screen').innerHTML=`<div class="detail"><button class="back" onclick="library()">← Recipe Library</button><div class="thumb">🍔</div>
+ <h1>${selected.name}</h1><div class="meta">${selected.description}</div>
+ <div class="chips">${selected.categories.concat(selected.tags.slice(0,3)).map(x=>`<span class="chip">${x}</span>`).join('')}</div>
+ <div class="servings"><button onclick="changeServ(-1)">−</button><span class="count" id="sc">${servings}</span><button onclick="changeServ(1)">+</button><b>servings</b></div>
+ <div class="row"><button class="primary" onclick="addRecipeToMarket()">＋ Add to Market List</button><button class="ghost" onclick="startCook()">👨‍🍳 Start Cooking</button></div>
+ <div class="section"><h3>Ingredients</h3><div id="ings"></div></div>
+ <div class="section"><h3>Instructions</h3>${selected.steps.map((s,i)=>`<div class="step"><b>${i+1}. ${s.title}</b><div class="small">${s.time} · ${s.heat}</div><div>${s.text}</div></div>`).join('')}</div>
+ <div class="section"><h3>Doneness Cues</h3><ul>${selected.donenessCues.map(x=>`<li>${x}</li>`).join('')}</ul></div>
+ <div class="section"><h3>Chef Notes</h3><ul>${selected.chefNotes.map(x=>`<li>${x}</li>`).join('')}</ul></div>
+ <div class="section"><h3>Common Mistakes</h3><ul>${selected.commonMistakes.map(x=>`<li>${x}</li>`).join('')}</ul></div>
+ <div class="section"><h3>Suggested Sides</h3>${selected.suggestedSides.map((s,i)=>`<div class="side"><b>${s.name}</b><div class="small">${s.ingredients.map(x=>x.name+' '+(x.quantity||'')+' '+x.unit).join(' · ')}</div><div class="actions"><button class="ghost" onclick="addSide(${i})">＋ Add this side to Market List</button><button class="ghost" onclick="alert('Permanent side saved for this prototype.')">☆ Make Permanent Side</button></div></div>`).join('')}</div>
+ <div class="section"><h3>🎥 Source / Reference</h3><p class="small">${selected.source.type}</p><button class="primary" onclick="window.open('${selected.source.url}','_blank')">Watch Original Video ↗</button></div>
+ <div class="section"><h3>Storage & Reheating</h3><p>${selected.storage}</p></div>
+ </div>`;
+ renderIngredients();
+}
+function renderIngredients(){const scale=servings/selected.defaultServings;$('ings').innerHTML=selected.ingredients.map(x=>`<div class="ingredient"><span>${x.name}${x.optional?' <span class="small">(optional)</span>':''}</span><span class="q">${x.quantity?Number((x.quantity*scale).toFixed(2)):''} ${x.unit}</span></div>`).join('')}
+function changeServ(d){servings=Math.max(1,servings+d);$('sc').textContent=servings;renderIngredients()}
+function addRecipeToMarket(){market.push(...selected.ingredients.map(x=>({...x,source:selected.name,scaled:(x.quantity||0)*servings/selected.defaultServings})));marketView()}
+function addSide(i){const s=selected.suggestedSides[i];market.push(...s.ingredients.map(x=>({...x,source:s.name,scaled:(x.quantity||0)*servings/selected.defaultServings})));marketView()}
+function marketView(){
+ const grouped={};market.forEach(x=>{const k=x.name.toLowerCase();if(!grouped[k])grouped[k]={...x,total:0};grouped[k].total+=x.scaled});
+ $('screen').innerHTML=`<div class="detail"><h1>🛒 Market List</h1><div class="meta">Consolidated from selected recipes and sides</div><div class="list">${Object.values(grouped).map((x,i)=>`<div class="item"><input type="checkbox"><span><b>${x.name}</b><br><span class="small">${x.source}</span></span><span class="qty"><b>${Number(x.total.toFixed(2))} ${x.unit}</b></span></div>`).join('')||'<p class="small">Your list is empty.</p>'}</div><div class="section"><button class="ghost" onclick="market=[];marketView()">Clear List</button></div></div>`;
+}
+function planner(){$('screen').innerHTML='<div class="detail"><h1>📅 Meal Planner</h1><div class="notice">Choose recipes, assign them to days, then generate one Market List.</div><div class="list">'+['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'].map(d=>`<div class="item"><b>${d}</b><span class="qty">＋ Add recipe</span></div>`).join('')+'</div></div>'}
+function startCook(){cookIndex=0;cookView()}
+function cookView(){const s=selected.steps[cookIndex];$('screen').innerHTML=`<div class="cook"><div class="stepno">COOK MODE · STEP ${cookIndex+1} / ${selected.steps.length}</div><h2>${selected.name}</h2><div class="cookbox"><b>${s.title}</b><p>${s.text}</p><p><b>Time:</b> ${s.time}<br><b>Heat:</b> ${s.heat}</p></div><div class="cookbox"><b>Recipe amounts</b><p>Current servings: ${servings}. Ingredient quantities are scaled on the recipe screen.</p></div><div class="cook-actions"><button onclick="cookIndex=Math.max(0,cookIndex-1);cookView()">← BACK</button><button class="next" onclick="cookIndex++;${cookIndex+1>=selected.steps.length?'cookDone()':'cookView()'}">${cookIndex+1>=selected.steps.length?'FINISH':'DONE → NEXT'}</button></div></div>`}
+function cookDone(){alert('Cooking complete!');openRecipe(recipes.indexOf(selected))}
+document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');if(b.dataset.screen==='recipes')library();if(b.dataset.screen==='market')marketView();if(b.dataset.screen==='planner')planner();if(b.dataset.screen==='cook')selected?startCook():library()});
+</script>
+<script>
+if("serviceWorker" in navigator){addEventListener("load",()=>navigator.serviceWorker.register("./sw.js"))}
+</script>
+</body>
+</html>
