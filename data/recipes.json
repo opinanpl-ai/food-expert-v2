@@ -223,7 +223,8 @@
         ]
       }
     ],
-    "storage": "Refrigerate promptly. Reheat until thoroughly hot; oven or air fryer gives the best texture."
+    "storage": "Refrigerate promptly. Reheat until thoroughly hot; oven or air fryer gives the best texture.",
+    "image": "images/creamy-shrimp-lasagna.jpg"
   },
   {
     "id": "FE-002",
@@ -513,7 +514,8 @@
         ]
       }
     ],
-    "storage": "Refrigerate leftovers promptly. Reheat in an oven or air fryer for better pastry texture; reheat until thoroughly hot."
+    "storage": "Refrigerate leftovers promptly. Reheat in an oven or air fryer for better pastry texture; reheat until thoroughly hot.",
+    "image": "images/ultimate-cheeseburger-wellington.jpg"
   },
   {
     "id": "FE-003",
@@ -808,6 +810,7 @@
         ]
       }
     ],
-    "storage": "Best eaten immediately. Refrigerate cooked salmon and rice promptly; assembled cucumber sushi loses texture quickly."
+    "storage": "Best eaten immediately. Refrigerate cooked salmon and rice promptly; assembled cucumber sushi loses texture quickly.",
+    "image": "images/crispy-salmon-cucumber-sushi.jpg"
   }
 ]

@@ -1,24 +1,21 @@
 {
-  "name": "Food Expert Kitchen Hub",
+  "name": "Food Expert Kitchen",
   "short_name": "Food Expert",
   "start_url": "./",
-  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#f5f6f8",
+  "background_color": "#ffffff",
   "theme_color": "#182230",
+  "description": "Personal Food Expert recipe library, planner, market list and cook mode.",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "./icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "./icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
