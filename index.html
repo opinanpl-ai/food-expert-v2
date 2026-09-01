@@ -62,7 +62,20 @@ function save(){
 }
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
 function emoji(r){let n=r.name.toLowerCase();if(n.includes("sushi"))return"🍣";if(n.includes("lasagna")||n.includes("pasta"))return"🍝";if(n.includes("ramen"))return"🍜";if(n.includes("bread"))return"🍞";if(n.includes("burger"))return"🍔";return"🍳"}
-function thumb(r){return r.image?`<div class="thumb"><img src="${esc(r.image)}" alt="${esc(r.name)}" onerror="this.parentElement.innerHTML='<span>${emoji(r)}</span>'"></div>`:`<div class="thumb"><span>${emoji(r)}</span></div>`}
+function imagePath(r){
+  if(r.image) return r.image;
+  const slug=(r.name||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const aliases={
+    "creamy-shrimp-lasagna":"./images/creamy-shrimp-lasagna.jpg",
+    "ultimate-cheeseburger-wellington":"./images/ultimate-cheeseburger-wellington.jpg",
+    "crispy-salmon-cucumber-sushi-sushi-dessert":"./images/crispy-salmon-cucumber-sushi.jpg"
+  };
+  return aliases[slug] || "";
+}
+function thumb(r){
+  const src=imagePath(r);
+  return src?`<div class="thumb"><img src="${esc(src)}" alt="${esc(r.name)}" loading="lazy" onerror="this.parentElement.innerHTML='<span>${emoji(r)}</span>'"></div>`:`<div class="thumb"><span>${emoji(r)}</span></div>`;
+}
 function favorite(r){return state.favorites.includes(r.id)}
 function renderNav(){let items=[["library","📚 Recipes"],["planner","📅 Planner"],["market","🛒 Market"]];$("nav").innerHTML=items.map(([id,t])=>`<button class="${state.screen===id?'active':''}" onclick="go('${id}')">${t}</button>`).join("")}
 function go(s){state.screen=s;render()}
