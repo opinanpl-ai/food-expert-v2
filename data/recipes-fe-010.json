@@ -1,0 +1,53 @@
+[
+  {
+    "id": "FE-010",
+    "name": "Cheesy & Spicy Ramen Hot-Pot with Ham, Shrimp & Soup Dumplings",
+    "status": "approved",
+    "version": "1.0",
+    "defaultServings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "categories": ["Korean-Inspired", "Ramen", "Seafood", "One-Pot", "Comfort Food"],
+    "tags": ["Spicy", "Cheesy", "Shrimp", "Ham", "Dumplings", "Instant Ramen", "Hot Pot"],
+    "description": "A bubbling spicy-cheesy ramen hot-pot loaded with ham, shrimp, soup dumplings, mushrooms, greens and eggs.",
+    "source": {"type": "Facebook Reel", "url": "https://www.facebook.com/reel/1568419611397396", "note": "The Reel did not expose a reliable written recipe. Quantities and method are Food Expert-developed."},
+    "ingredients": [
+      {"name":"Ottogi Cheesy Spicy Ramen or similar cheesy spicy Korean stir-fry ramen","quantity":2,"unit":"packs","section":"Ramen"},
+      {"name":"Water","quantity":700,"unit":"ml","section":"Hot-Pot Base"},
+      {"name":"Whole milk","quantity":150,"unit":"ml","section":"Hot-Pot Base"},
+      {"name":"Mozzarella, shredded","quantity":60,"unit":"g","section":"Hot-Pot Base"},
+      {"name":"Processed cheese","quantity":2,"unit":"slices","section":"Hot-Pot Base"},
+      {"name":"Butter","quantity":15,"unit":"g","section":"Hot-Pot Base"},
+      {"name":"Gochujang","quantity":15,"unit":"g","section":"Hot-Pot Base"},
+      {"name":"Garlic, minced","quantity":1,"unit":"tbsp","section":"Hot-Pot Base"},
+      {"name":"Chili oil or chili crisp","quantity":2,"unit":"tsp","section":"Hot-Pot Base","optional":true},
+      {"name":"Ham, sliced","quantity":120,"unit":"g","section":"Protein"},
+      {"name":"Shrimp, peeled and deveined","quantity":150,"unit":"g","section":"Protein"},
+      {"name":"Frozen soup dumplings","quantity":8,"unit":"pcs","section":"Protein"},
+      {"name":"Eggs","quantity":2,"unit":"pcs","section":"Protein"},
+      {"name":"Mushrooms, sliced","quantity":100,"unit":"g","section":"Vegetables"},
+      {"name":"Bok choy or pechay","quantity":100,"unit":"g","section":"Vegetables"},
+      {"name":"Green onions","quantity":2,"unit":"stalks","section":"Garnish"},
+      {"name":"Toasted sesame seeds","quantity":1,"unit":"tsp","section":"Garnish"}
+    ],
+    "steps": [
+      {"title":"Prepare ingredients","time":"5 min","heat":"None","text":"Slice the ham, mushrooms and green onions. Pat the shrimp dry. Keep soup dumplings frozen until cooking."},
+      {"title":"Build the hot-pot broth","time":"3–4 min","heat":"Medium","text":"In a wide pot, combine water, milk, butter, garlic and gochujang. Bring to a gentle simmer; do not hard-boil the dairy."},
+      {"title":"Cook dumplings and mushrooms","time":"5–6 min","heat":"Gentle simmer","text":"Add frozen soup dumplings and mushrooms. Simmer gently until the dumplings are heated through. Avoid aggressive boiling so the wrappers stay intact."},
+      {"title":"Add ramen","time":"3–5 min","heat":"Medium","text":"Add ramen noodles and their seasoning/sauce packets. Cook according to the package, stirring occasionally to separate the noodles."},
+      {"title":"Add ham and shrimp","time":"2–3 min","heat":"Gentle simmer","text":"Add ham and shrimp near the end. Cook until the shrimp are opaque and firm and the dumplings are hot throughout."},
+      {"title":"Make it cheesy","time":"1–2 min","heat":"Low","text":"Reduce heat to low. Add processed cheese and mozzarella. Stir gently until melted and creamy. Add chili oil or chili crisp to taste."},
+      {"title":"Add greens","time":"1–2 min","heat":"Low","text":"Add bok choy or pechay and cook just until wilted but still slightly crisp."},
+      {"title":"Poach the eggs","time":"2–3 min","heat":"Gentle simmer","text":"Crack eggs into separate spaces in the broth. Cover and cook until whites are set and yolks are soft, or longer for firmer yolks."},
+      {"title":"Finish and serve","time":"1 min","heat":"None","text":"Top with green onions and sesame seeds. Drizzle with additional chili oil or chili crisp. Serve immediately from the heat-safe pot."}
+    ],
+    "donenessCues": ["Shrimp are opaque and firm, not rubbery.","Dumpling wrappers remain intact and the centers are hot.","Noodles are tender but not mushy.","Cheese is fully melted into a creamy broth.","Egg whites are set to the desired doneness."],
+    "chefNotes": ["Keep the dairy at a gentle simmer and add cheese near the end to reduce the chance of separation.","Frozen soup dumplings should go in frozen and be cooked gently so they do not split.","Pechay is a practical CDO/Philippine substitute for bok choy.","The dish is richest when served immediately while the cheese is hot and fluid."],
+    "commonMistakes": ["Boiling the dairy aggressively","Overcooking shrimp","Breaking the soup dumplings with vigorous stirring","Adding cheese too early","Overcooking the greens"],
+    "substitutions": ["Pechay can replace bok choy.","Any Korean cheesy/spicy instant ramen can replace Ottogi.","Evaporated milk can replace whole milk, though the broth will taste richer.","Frozen shrimp can be used after thawing and drying well."],
+    "suggestedSides": [],
+    "storage": "For best quality, eat immediately. If leftovers remain, refrigerate promptly in a covered container and reheat gently until thoroughly hot. Noodles and dumplings will soften during storage.",
+    "image": "images/cheesy-spicy-ramen-hot-pot.jpg"
+  }
+]
